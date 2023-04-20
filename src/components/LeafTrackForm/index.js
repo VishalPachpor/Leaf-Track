@@ -10,7 +10,7 @@ export function LeafTrackForm() {
     <div className="form">
       <div className="form__container">
         <div className="form">
-          <h1 className="form__title">Start monitoring</h1>
+          <h1>Get monitored</h1>
           <form className="form-form">
             <div className="form-form__container">
               <div className="form-form-box">
@@ -50,47 +50,37 @@ export function LeafTrackForm() {
               <div >
 
                 <span >
-                  <input placeholder="Name" />
+                  <input placeholder="Name of the reserve manager" style={{ background:" transparent"}}  />
                 </span>
                 <span>
-                  <input placeholder="Last Name" />
+                  <input placeholder="Name of the nature reserve" style={{ background: " transparent" }}  />
                 </span>
                 <span>
-                  <input placeholder="Project Name" />
+                  <input placeholder="Email address" style={{ background: " transparent" }}  />
                 </span>
                 <span>
-                  <textarea placeholder="Description of the project" />
+                  <input placeholder="Contact number" style={{ background: " transparent" }}  />
+                </span>
+                <span>
+                  <input placeholder="Mailing address" style={{ background: " transparent" }}  />
+                </span>
+                <span>
+                  <input placeholder="Project Name" style={{ background: " transparent" }}  />
+                </span>
+                <span>
+                  <textarea placeholder="Any additional notes or comments." style={{ background: " transparent" }}  />
                 </span>
               </div>
-              <div className="form-form-box">
-                <div className="form-form-box__container">
-                  <FontAwesomeIcon
-                    icon={faExclamationCircle}
-                    className="form-form-box__exclamation"
-                  />
-                  <div className="form-form-box__head">
-                    <p>Pro Tip</p>
-                  </div>
-                </div>
-                <p>
-                  People can try to notify you of problems in your submission
-                  and save your deposit via your ethmail.cc. Make sure to check
-                  it while submission is being processed.
-                </p>
-              </div>
+             
               <span>
-                <p>Share project logo</p>
+                <p>Reserve Layout</p>
                 <div className="form-form-box-logo">
                   <div className="form-form-box-logo__container">
                     <div className="form-form-box-logo__head">
                       <p>{"(Max Size: 2 MB | *.jpg, *.jpeg, *.png)"}</p>
                     </div>
                   </div>
-                  <p style={{ marginBottom: '1rem' }}>
-                    People can try to notify you of problems in your submission
-                    and save your deposit via your ethmail.cc. Make sure to
-                    check it while submission is being processed.
-                  </p>
+                  
                   <div className="form-form-box__upload">
                     <label htmlFor="inputTag" >
                     <input id='inputTag' type="file" />

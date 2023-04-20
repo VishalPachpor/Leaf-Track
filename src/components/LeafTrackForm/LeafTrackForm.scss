@@ -4,7 +4,7 @@
   width: 70%;
   display: flex;
   flex-direction: column;
-  border: 1.5px solid #212121;
+  border: 1.5px solid #fbf8f8;
   border-radius: 6px;
   text-align: center;
   justify-content: center;
@@ -16,6 +16,9 @@
     margin: 30px 0;
     width: 100%;
     height: max-content;
+    z-index: 10;
+    opacity: 100%;
+    
 
 
     &__title {
@@ -31,7 +34,7 @@
       &-box {
         margin-bottom: 9px;
         padding: 1rem;
-        border: 1px solid #212121;
+        border: 1px solid #fcfafa;
 
         &__container {
           display: flex;
@@ -140,7 +143,7 @@
         input {
           outline: 2px solid transparent;
           height: 3rem;
-          border: 1px solid;
+          border: 1px solid white;
           border-radius: 0.375rem;
           width: 100%;
           padding: 20px;
@@ -151,7 +154,7 @@
           min-width: 0px;
           outline: 2px solid transparent;
           height: 20rem;
-          border: 1px solid;
+          border: 1px solid white;
           padding: 20px;
           margin: 10px 10px 10px 0px;
           border-radius: 0.375rem;

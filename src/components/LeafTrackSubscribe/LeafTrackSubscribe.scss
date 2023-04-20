@@ -1,22 +1,41 @@
 .subscribe {
-  
+
+  background: url(https://wallpaper.dog/large/17061704.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  z-index: -1;
+  color: white;
+
   &__title {
-    margin: 0;
-    margin-left: 1rem;
-    margin-bottom: 2rem;
+    position: relative;
+    top: 28px;
+   margin-top: 200px;
     width: max-content;
     font-size: 46px;
     line-height: 22.5px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: auto;
 
   }
 
   &__description {
-    margin: 0;
-    margin-left: 1rem;
-    margin-bottom: 2rem;
-    width: 92%;
-    font-size: 16px;
-    line-height: 22.5px;
     
+   top: 20px;
+   position: relative;
+   bottom: 60px;
+    width: 100%;
+    font-size: 20px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+  }
+
+  &_input{
+    background: transparent;
   }
 }
